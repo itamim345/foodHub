@@ -13,7 +13,7 @@ h1{
 p {
     font-size: 18px;
 }
-.header_area {
+.header_content {
     display: flex;
 }
 .our_button a {
@@ -23,13 +23,13 @@ p {
     text-decoration: none;
     background: red;
 }
-.header_area img, .reciepe_area img{
+#header_area img, #reciepe_area img{
     width: 100%;
 }
 .single_header_col{
     width: 50%;
 }
-.reciepe_area{
+.reciepies{
     display: flex;
 }
 .single_reciepe_col{
