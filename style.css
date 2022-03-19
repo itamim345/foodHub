@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    font-size: 45px;
+}
+p {
+    font-size: 18px;
+}
+.header_area {
+    display: flex;
+}
+.our_button a {
+    border-radius: 8px;
+    padding: 15px 35px;
+    color: #fff;
+    text-decoration: none;
+    background: red;
+}
+.header_area img, .reciepe_area img{
+    width: 100%;
+}
+.single_header_col{
+    width: 50%;
+}
+.reciepe_area{
+    display: flex;
+}
+.single_reciepe_col{
+    width: 33.3%;
+}
+
