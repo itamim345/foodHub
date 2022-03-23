@@ -18,7 +18,10 @@ p {
 }
 .dec_heading{
     color: #1B98F5;
-    text-decoration: underline;
+    text-decoration: underline;   
+}
+.dec_dif_color{
+    color: black;
 }
 /*========================= header_area css ============================*/
 #header_area {
@@ -111,12 +114,19 @@ p {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
     padding: 5px;
+    transition: transform .5s;
+}
+.single_chef_col:hover{
+    transform: scale(1.1);
 }
 .single_chef_col>h3, .single_chef_col>p{
     margin: 2px;
 }
 .single_chef_col p{
     text-align: justify;
+}
+.single_chef_col h3{
+    border-bottom: 3px solid #1B98F5;
 }
 .single_chef_col img{
     width: 100%;
@@ -146,6 +156,9 @@ p {
 .fb{
     color: navy;
 }
+.inst{
+   color: #8a3ab9;
+}
 /*=========================== review_area css============================= */
 #review_area{
     margin: 50px 0;
@@ -157,6 +170,11 @@ p {
 }
 .single_review_col img{
     border-radius: 50%;
+}
+.single_review_col {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 10px;
+    padding: 5px;
 }
 .single_review_col>h4, .single_review_col>p{
     margin: 2px;
@@ -204,4 +222,15 @@ p {
     background: #dfe6e9;
     padding: 30px 0;
     text-align: center;
+}
+#footer p{
+    font-size: 16px;
+}
+#footer p a{
+    text-decoration: none;
+    color: #1B98F5;
+    font-weight: bold;
+}
+span.dif_color {
+    color: #1B98F5;
 }
