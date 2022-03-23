@@ -1,3 +1,12 @@
+:root {
+    /* --main-color: hotpink */
+  /* We need two variables to create our graident. Both colors should have transparency value. That's why we are using hsla color values. When you set the 'a' alpha value b/w 0 to 1. You actually set the transparency. So I have modified your code a bit and changed the '1.00' to '0.8'. 
+   I have also modified the secondary hue and changed to 46. Just to get a different color. 
+    */
+  
+  --primary:hsla(204,64%,44%, 0.8);
+  --secondary:hsla(46,93%,70%,0.8);
+  }
 body{
     margin: 0;
     padding: 0;
@@ -24,6 +33,15 @@ p {
 .dec_dif_color{
     color: black;
 }
+/* .overlay{
+    background-color: rgba(0,0,0, 0.4);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+} */
 /*========================= header_area css ============================*/
 #header_area {
     padding: 50px 0;
@@ -41,7 +59,7 @@ p {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    background-image: linear-gradient(#048cf7, #74b9ff);
+    background: #1B98F5;
 }
 #header_area img, #reciepe_area img{
     width: 100%;
@@ -96,11 +114,13 @@ p {
 }
 /*=========================== book_table area css============================= */
 #book_table_area{
-    background: url(images/book-table.jpg);
+    background: linear-gradient(135deg, var(--primary),var(--secondary)),
+                 url(images/book-table.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     padding: 100px 0;
     text-align: center;
+    position: relative;
 }
 /*=========================== our chef area css============================= */
 #our_chef_area{
@@ -188,11 +208,14 @@ p {
 }
 /*=========================== contact_us area css============================= */
 #contact_us{
-    background: url(images/contact_bg.jpg);
+    background: linear-gradient(135deg, var(--primary),var(--secondary)),
+            url(images/contact_bg2.jpg);
     background-size: cover;
     background-position: center center;
     padding: 50px 0;
+    position: relative;
 }
+
 #contact_us h2{
     text-align: center;
     margin-bottom: 0;
@@ -202,13 +225,14 @@ p {
     border-radius: 1rem;
     width: 50%;
     margin: 0 auto;
+    color: #fff;
   }
 .contact_us_form form input,textarea {
     width: 100%;
     padding: 5px;
     border-radius: 4px;
     font-size: 18px;
-    border: 2px solid gray;
+    border: 2px solid #fff;
     display: block;
     outline: none;
     margin: 5px 0;
@@ -216,6 +240,8 @@ p {
 }
 .contact_us_form form input[type="submit"]{
     width: 25%;
+    border-color: #1B98F5;
+    background: #1B98F5;
 }
 
 /*=========================== footer area css============================= */
