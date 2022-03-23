@@ -18,7 +18,8 @@ p {
 }
 .dec_heading{
     color: #1B98F5;
-    text-decoration: underline;   
+    text-decoration: underline; 
+    text-underline-offset: 20%;
 }
 .dec_dif_color{
     color: black;
