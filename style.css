@@ -225,6 +225,7 @@ p {
     width: 50%;
     margin: 0 auto;
     color: #fff;
+    box-sizing: border-box;
   }
 .contact_us_form form input,textarea {
     width: 100%;
@@ -236,6 +237,7 @@ p {
     outline: none;
     margin: 5px 0;
     background-color: transparent;
+    box-sizing: border-box;
 }
 .contact_us_form form input[type="submit"]{
     width: 25%;
@@ -296,5 +298,14 @@ span.dif_color {
     .reciepies,.our_chefs,.our_followers,.reviews{
         display: flex;
         flex-direction: column;
+        gap:40px;
+    }
+    /* contact us area responsive */
+    .contact_us_form form {
+        width: 100%;
+
+      }
+    .contact_us_form form input[type="submit"]{
+        width: 100%;
     }
 }
