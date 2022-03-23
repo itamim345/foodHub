@@ -298,7 +298,7 @@ span.dif_color {
         flex-direction: column-reverse;
         text-align: center;
     }
-    .single_header_col,.single_about_img,.single_about_con{
+    .single_header_col,.single_about_img,.single_about_con,.single_reciepe_col{
         width: 100%;
     }
     /* our_recipies area,our_chef area, our_followers area and reviews area responsive */
