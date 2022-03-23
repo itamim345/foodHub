@@ -172,10 +172,10 @@ p {
     font-size: 80px;
 }
 .ytb{
-    color: red;
+    color: #FF0000;
 }
 .fb{
-    color: navy;
+    color: #4267B2;
 }
 .inst{
    color: #8a3ab9;
@@ -250,6 +250,9 @@ p {
     padding: 30px 0;
     text-align: center;
 }
+#footer h4{
+    text-transform: lowercase;
+}
 #footer p{
     font-size: 16px;
 }
@@ -260,4 +263,20 @@ p {
 }
 span.dif_color {
     color: #1B98F5;
+}
+.social i {
+    font-size: 25px;
+    margin:0 5px;
+}
+.social .fb_c{
+    color: #4267B2;
+}
+.social .ytb_c{
+    color: #FF0000;
+}
+.social .twt_c{
+    color: #1DA1F2;
+}
+.social .gm_c{
+    color: #BB001B;
 }
