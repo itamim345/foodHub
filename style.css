@@ -1,5 +1,4 @@
 :root {
-    /* --main-color: hotpink */
   /* We need two variables to create our graident. Both colors should have transparency value. That's why we are using hsla color values. When you set the 'a' alpha value b/w 0 to 1. You actually set the transparency. So I have modified your code a bit and changed the '1.00' to '0.8'. 
    I have also modified the secondary hue and changed to 46. Just to get a different color. 
     */
@@ -279,4 +278,23 @@ span.dif_color {
 }
 .social .gm_c{
     color: #BB001B;
+}
+
+
+/* =========================================Responsive css=============================== */
+@media screen and (max-width:768px) {
+    /* header area,abou_us area responsive */
+    .header_content,.about_us {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .single_header_col,.single_about_img,.single_about_con{
+        width: 100%;
+    }
+    /* our_recipies area,our_chef area, our_followers area and reviews area responsive */
+    .reciepies,.our_chefs,.our_followers,.reviews{
+        display: flex;
+        flex-direction: column;
+    }
 }
