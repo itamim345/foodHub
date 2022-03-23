@@ -6,6 +6,9 @@
   --primary:hsla(204,64%,44%, 0.8);
   --secondary:hsla(46,93%,70%,0.8);
   }
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
@@ -77,6 +80,7 @@ p {
 }
 
 .single_reciepe_col {
+    width: 33.3%;
     border-radius: 10px;
     border: 2px solid #1B98F5;
     padding: 10px;
@@ -84,6 +88,9 @@ p {
 }
 .single_reciepe_col:hover{
     transform: scale(1.1);
+}
+.single_reciepe_col img{
+    border-radius: 15px;
 }
 .single_reciepe_col>h3, .single_reciepe_col>p{
     margin: 2px;
@@ -222,7 +229,7 @@ p {
 .contact_us_form form {
     padding: 2rem;
     border-radius: 1rem;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     color: #fff;
     box-sizing: border-box;
