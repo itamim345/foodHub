@@ -300,6 +300,7 @@ span.dif_color {
     }
     .single_header_col,.single_about_img,.single_about_con,.single_reciepe_col{
         width: 100%;
+        box-sizing: border-box;
     }
     /* our_recipies area,our_chef area, our_followers area and reviews area responsive */
     .reciepies,.our_chefs,.our_followers,.reviews{
@@ -315,4 +316,5 @@ span.dif_color {
     .contact_us_form form input[type="submit"]{
         width: 100%;
     }
+
 }
